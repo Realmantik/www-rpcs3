@@ -12,27 +12,35 @@
 <?php include 'lib/module/sys-css.php';?>
 <?php include 'lib/module/sys-js.php';?>
 </head>
-<body style="background: #000;">
+<body>
 <?php include 'lib/module/sys-php.php';?>
 <div class="page-con-content">
 	<div class="header-con-overlay darkmode-header" style="position:fixed;">
+		<div id="particles-js-1">
+		</div>
+		<div class="wavebar-con-container">
+			<div class="wavebar-con-wrap">
+			  <div class="wavebar-svg-object"></div>
+			  <div class="wavebar-svg-object"></div>
+			</div>
+		</div>
 		<div class='alipay-con-alipay'>
 			<div class="alipay-ico-logo">
 			</div>
-			<a href='/img/icons/alipay/qr.png' target="_blank">
+			<a href='/img/icons/qr/alipay.png' target="_blank">
 			<div class="alipay-ico-alipay">
 			</div>
 			</a>
-			<div class="alipay-tx1-prompt">
-				<span>基木</span>
+			<div class="alipay-tx1-prompt pulsate">
+				<h1>基木</h1>
 			</div>
-			<div class="alipay-tx2-prompt">
+			<div class="alipay-tx2-prompt pulsate">
 				<span>用支付宝扫一扫付钱</span>
 			</div>
 		</div>
 		<div class="alipay-con-footer">
 			<p>
-				 © Copyright 2004-2017 Alipay. All rights reserved.
+				 © 2020 Alipay. All rights reserved.
 			</p>
 		</div>
 	</div>

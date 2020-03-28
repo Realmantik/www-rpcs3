@@ -1,4 +1,4 @@
-/* Handles Particles.js simulation*/
+// Handles Particles.js simulation*/
 $(document).ready(function() {
     $(function() {
         particlesJS("particles-js-1", {
@@ -7,7 +7,7 @@ $(document).ready(function() {
                     "value": 32,
                     "density": {
                         "enable": true,
-                        "value_area": 1024
+                        "value_area": 768
                     }
                 },
                 "color": {
@@ -20,7 +20,7 @@ $(document).ready(function() {
                         "color": "#fff"
                     },
                     "polygon": {
-                        "nb_sides": 5
+                        "nb_sides": 3
                     },
                     "image": {
                         "src": " ",
@@ -30,20 +30,20 @@ $(document).ready(function() {
                 },
                 "opacity": {
                     "value": 1,
-                    "random": false,
+                    "random": true,
                     "anim": {
-                        "enable": false,
+                        "enable": true,
                         "speed": 1,
-                        "opacity_min": 0.1,
+                        "opacity_min": 0,
                         "sync": false
                     }
                 },
                 "size": {
-                    "value": 3,
+                    "value": 6,
                     "random": true,
                     "anim": {
-                        "enable": false,
-                        "speed": 40,
+                        "enable": true,
+                        "speed": 4,
                         "size_min": 0.1,
                         "sync": false
                     }
@@ -57,7 +57,7 @@ $(document).ready(function() {
                 },
                 "move": {
                     "enable": true,
-                    "speed": 10,
+                    "speed": 1,
                     "direction": "none",
                     "random": false,
                     "straight": false,

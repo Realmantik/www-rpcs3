@@ -14,16 +14,20 @@
 <body>
 <?php include 'lib/module/sys-php.php';?>
 <div class="page-con-content">
-	<div class="header-con-head">
-		<div class="header-img-head">
+	<div class="header-con-head darkmode-header">
+		<div id="particles-js-1">
+		</div>
+		<div class="wavebar-con-container">
+			<div class="wavebar-con-wrap">
+			  <div class="wavebar-svg-object"></div>
+			  <div class="wavebar-svg-object"></div>
+			</div>
 		</div>
 		<div class="header-con-overlay darkmode-header">
 		</div>
-		<div class="header-con-diffuse">
-		</div>
 		<div class='header-con-body fade-up-onstart'>
 			<div class='header-tx1-body fade-up-onstart pulsate'>
-				<span>Roadmap</span>
+				<h1>Roadmap</h1>
 			</div>
 			<div class='header-tx2-body fade-up-onstart'>
 				<p>
